@@ -1,12 +1,14 @@
+# Rainfall: bom.gov.au rainfall data for machine learning
 
-
+For a recent hackathon we need easy to access rainfall data for any lat long point in Australia.
+This simple python script populates a PostgreSQL database (that has the PostGIS extension enabled) with rainfall data from all the weather stations listed in data.tsv.
 
 
 ## Licence
 
 The MIT License (MIT)
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2015 Matthew Brown
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
